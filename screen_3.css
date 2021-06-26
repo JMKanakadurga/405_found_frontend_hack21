@@ -1,0 +1,155 @@
+/* Body Section */
+hr{
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    text-align:center;
+}
+body{
+    background:black;
+    
+}
+
+
+/* Footer Section */
+h2{
+    color:white;
+    text-align: center;
+}
+
+
+
+/* Comments Section */
+.comments {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+#user_feedback{
+    background:transparent;
+    border-color: tomato;
+    border-style: double;
+    border-width: 2px;
+}
+
+
+
+/* Rate Us Section */
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:50px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+   content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+   color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.rate{
+    margin: auto;
+    width: 59.25%;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+/* Submit Button Section */
+#submitbutton{
+    color:black;
+    padding: 8px;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0;
+    /* border-radius: 10px; */
+    background-color: rgb(238, 238, 82);
+}
+.button{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+/* Ping Us Section */
+.fa{
+    margin: 10px;
+    padding: 4px;
+    font-size: 6px;
+    width: 60px;
+    line-height: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    align-items: center;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: rgb(2,90,191);
+    color:black;
+    font-size: 1em;
+}  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-whatsapp{
+    background: rgb(84, 194, 66);
+    color:white;
+}
+.fa-envelope{
+    background: rgb(249,51,36);
+    color: white;
+}
+.fa-instagram{
+    background: rgb(236, 11, 105);
+    color: white;
+}
+.fa-youtube-play{
+    background: rgb(226, 15, 0);
+    color: white;
+}
+.ping{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
