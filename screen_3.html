@@ -2,27 +2,189 @@
 <html>
 
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="screen_3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Contact Section</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="login.css">
+        
     </head>
 
-    <body>
-        <!-- Footer Section -->
-            <hr>
-            <br>
+    <body >
+        <div class="heading">
+        <header >
+            <div class="navbar">
+                <div class="logo"><a href="#">LapWorld</a></div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <!-- <li><a href="#">Latest</a></li> -->
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#footer">Comments</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+                <div class="buttonss">
+                   <a href="login.html"> <input type="button" value="Login"> 
+                    <input type="button" value="Sign in"> </a>
+                </div>
+            </div>
+            <div id="p1div">
+                <p >CATALOGUES ARE THE "FUEL" OF YOUR SEARCHES !!</p>
+            </div>
+        </header>
+        
+    </div>
+    
+
+    <!-- Filter Section -->
+    <!-- Filter By Brands -->
+        <hr style="color: white;">
+        <h2>FILTER BY BRANDS</h2>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('apple')"> Apple</button>
+            <button class="btn" onclick="filterSelection('acer')">Acer </button>
+            <button class="btn" onclick="filterSelection('hp')"> Hp</button>
+            <button class="btn" onclick="filterSelection('dell')"> Dell</button>
+            <button class="btn" onclick="filterSelection('lenovo')"> Lenovo</button>
+            <button class="btn" onclick="filterSelection('asus')"> Asus</button>
+        </div>
+
+        <div class="row">
+            
+            <div class="column apple">
+                <div class="content">
+                    <img src="../images/51FQpz-zY1L._SL1024_.jpg" alt="apple_macbook_air" style="width:100%">
+                    <h4>Apple Macbook Air</h4>
+                    <p> i5 10th Gen | 8GB RAM | 256GB SSD </p>
+                    <h5>Price: &#8377;1,20,000/-</h5>
+                </div>
+            </div>
+            
+            <div class="column apple">
+            <div class="content">
+                    <img  src="../images/MacBook_Air_Gold_Pure_Front_Open_US-EN_PRINT-1024x712.jpg" alt="Lights" style="width:100%">
+                    <h4>Apple Macbook Pro</h4>
+                    <p>i7 9th Gen | 16GB RAM | 512GB SSD</p>
+                    <h5>Price: &#8377;98,000/-</h5>
+            </div>
+            </div>
+
+            <div class="column asus">
+                <div class="content">
+                    <img src="../images/61zicbenPL._AC_SL1280_-1024x712.jpg" alt="Lights" style="width:100%">
+                    <h4>Asus Vivobook 14</h4>
+                    <p>i3 11th Gen | 8GB RAM | 256GB SSD</p>
+                    <h5>Price: &#8377;47,999/-</h5>
+                </div>
+            </div>
+            
+            <div class="column asus">
+                <div class="content">
+                    <img src="../images/asus img 2.jpg" alt="Lights" style="width:100%">
+                    <h4>Asus ROG TUF</h4>
+                    <p>i5 10th Gen | 16GB RAM | 512GB SSD</p>
+                    <h5>Price: &#8377;67,999/-</h5>
+                </div>
+            </div>
+            
+            <div class="column hp">
+                <div class="content">
+                    <img src="../images/hp img 1.jpg" alt="Nature" style="width:100%">
+                    <h4>HP Pavilion 14</h4>
+                    <p>i5 11th Gen | 8GB RAM | 256GB SSD </p>
+                    <h5>Price: &#8377;63,999/-</h5>
+                </div>
+            </div>
+
+            <div class="column hp">
+                <div class="content">
+                    <img src="../images/hp img 2.jpg" alt="Car" style="width:100%">
+                    <h4>HP Spectre x360</h4>
+                    <p>i7 10th Gen | 16GB RAM | 512GB SSD</p>
+                    <h5>Price: &#8377;1,21,999/-</h5>
+                </div>
+            </div>
+            
+            <div class="column dell">
+                <div class="content">
+                    <img src="../images/dell 2.jpg" alt="Car" style="width:100%">
+                    <h4>Dell Inspiron 15</h4>
+                    <p>i5 11th Gen | 8GB RAM | 256GB SSD</p>
+                    <h5>Price: &#8377;59,999/-</h5>
+                </div>
+            </div>
+        
+            <div class="column dell">
+                <div class="content">
+                    <img src="../images/dell 1.jpg" alt="Car" style="width:100%">
+                    <h4>Dell Vostro 15</h4>
+                    <p>i3 11th Gen | 16GB RAM | 512GB SSD</p>
+                    <h5>Price: &#8377;45,999/-</h5>
+                </div>
+            </div>
+
+            <div class="column lenovo">
+                <div class="content">
+                    <img src="../images/lenovo 2.jpg" alt="People" style="width:100%">
+                    <h4>Lenovo Ideapad Slim-3i</h4>
+                    <p>i5 10th Gen | 8GB RAM | 256GB SSD</p>
+                    <h5>Price: &#8377;54,999/-</h5>
+                </div>
+            </div>
+        
+            <div class="column lenovo">
+                <div class="content">
+                    <img src="../images/lenovo-laptop-ideapad-3-15-amd-subseries-gallery-3_1_1024x712.jpg" alt="People" style="width:100%">
+                    <h4>Lenovo Yoga Slim-7i</h4>
+                    <p>i7 11th Gen | 16GB RAM | 512GB SSD</p>
+                    <h5>Price: &#8377;89,999/-</h5>
+                </div>
+            </div>
+
+            <div class="column acer">
+                <div class="content">
+                    <img src="../images/Acer-Aspire-5-A515-56-Laptop-Price-in-India-1024x712.jpg" alt="People" style="width:100%">
+                    <h4>Acer Aspire 5</h4>
+                    <p>i3 10th Gen | 8GB RAM | 256GB SSD</p>
+                    <h5>Price: &#8377;38,999/-</h5>
+                </div>
+            </div>
+
+            <div class="column acer">
+                <div class="content">
+                    <img src="../images/As_VX5-591G_02-1024x712.png" alt="People" style="width:100%">
+                    <h4>Acer Nitro 5</h4>
+                    <p>i7 10th Gen | 16GB RAM | 512GB SSD</p>
+                    <h5>Price: &#8377;1,09,999/-</h5>
+                </div>
+            </div>
+    </div>  
+
+             
+   <br>
+   <hr>
+   <br><br>
 
 
+    <div id="footer" style="width:100%;">
+      
         <!-- Comment Section --> 
-            <h2>Drop Your Comments</h2>
+            <h2 class="footerh2">Drop Your Comments</h2>
             <div class="comments">
-            <textarea name="feedback" placeholder="Your Comments....." id="user_feedback" cols="60" rows="5"></textarea><br>
+                <textarea name="feedback" placeholder="Your Comments....." id="user_feedback" cols="60" rows="5"></textarea><br>
             </div>
         
 
         <!-- Rate Us Section -->
-            <h2>Rate Us</h2>
-            <div class="rate">
+            <h2 class="footerh2">Rate Us</h2>
+          
+          <div id="rate">
+            
                 <input type="radio" id="star5" name="rate" value="5" />
                 <label for="star5" title="text">5 stars</label>
                 <input type="radio" id="star4" name="rate" value="4" />
@@ -32,29 +194,69 @@
                 <input type="radio" id="star2" name="rate" value="2" />
                 <label for="star2" title="text">2 stars</label>
                 <input type="radio" id="star1" name="rate" value="1" />
-                <label for="star1" title="text">1 star</label>   
+                <label for="star1" title="text">1 star</label>  
+              
             </div>
+  
+          
             <br><br><br><br><br>
 
 
         <!-- Submit Button Section -->
-            <div class="button">
-                <button id="submitbutton"  type="submit">Submit</button>
+            <div  id="button">
+                <button class="submitbut" id="submitbutton"  type="submit">Submit</button>
             </div>
             <br>
             <hr>
 
 
-        <!-- Ping Us Section -->
-            <h2>Ping Us</h2>
+        <!-- Connect Us Section -->
+            <h2 class="footerh2">Connect Us</h2>
             <div class="ping">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-whatsapp"></a>
-                <a href="#" class="fa fa-envelope"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-youtube-play"></a>
+                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-twitter"></a>
+                <a href="" class="fa fa-whatsapp"></a>
+                <a href="" class="fa fa-envelope"></a>
+                <a href="" class="fa fa-instagram"></a>
+                <a href="www.youtube.com" target="_blank" class="fa fa-youtube-play"></a>
+             
             </div>
-    </body>
+            <hr>
 
+
+        <!-- Copyright section -->
+        
+    </div>
+    <div class="box" style="width: fit-content;">
+        <p class="headings">FAQs</p>
+        <div class="faqs">
+            <details>
+                <summary>What is LapWorld.com?</summary>
+                <p class="text">LapWorld.com is a leading online retailer of products that inform, educate, and inspire. .</p>
+            </details>
+           <details>
+              <summary>What can I return ?</summary>
+              <p class="text">Items are returnable if you've received them in a condition that is physically damaged, has <br> missing parts or accessories, defective or different from its description on the product.</p>
+           </details>
+           <details>
+            <summary>What are the return guidelines?</summary>
+            <p class="text">Your address and the item that you wish to return must be eligible for return.<br>If the return is not eligible for Pickup, a Self-Return option will be given.</p>
+           </details>
+           <details>
+              <summary>What are the payment Methods?</summary>
+              <p class="text">You can pay via Cards/UPI/Cash on delivery</p>
+           </details>
+           <!-- <details>
+              <summary>Can my order be replaced?</summary>
+              <p class="text">If the item you ordered arrived in a physically damaged or defective condition or is different <br> from their description on the product detail page , or has missing parts or accessories, br
+                it will be eligible for a free replacement, provided the exact item is available with the same seller.</p>
+           </details> -->
+        </div>
+     </div> 
+     <div id="copyright">
+        <p>Copyright &#169; 2021 by 405_found </p>
+    </div> 
+
+    </body>
+    <script src="screen4.js"></script>
 </html>
